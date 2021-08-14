@@ -1,0 +1,1 @@
+export  const Api_url ='https://api.chat.besoft.kg/v1';

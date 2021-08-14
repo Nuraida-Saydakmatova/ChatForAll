@@ -1,38 +1,270 @@
-.App {
-  text-align: center;
+.body {
+  background-image: url('https://www.wallpapertip.com/wmimgs/231-2312731_chat-background-wallpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.profil {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+}
+
+/* for main list */
+
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.block_form_all {
+  height: 90vh;
+}
+
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.child {
+  width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.534);
+}
+
+.sms {
+  background-color: gray;
+  border-radius: 7px;
+  font-size: 20px;
+  padding: 5px;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Home */
+.block_all_home {
+  display: flex;
+}
+
+.block_left_home {
+  width: 25%;
+  min-height: 100vh;
+  background-color: rgb(52, 54, 57);
+  /* opacity: 80%; */
+  border: 1px solid rgb(182, 181, 184);
+  color: white;
+  padding: 0px 40px 10px 40px;
+}
+
+.block_rigth_home {
+  width: 75%;
+  min-height: 100vh;
+}
+
+.heder_home {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  height: 10vh;
+  background-color: rgb(59, 59, 59);
+  opacity: 80%;
+  border: 1px solid rgb(204, 203, 206);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.block_chat {
+  width: 100%;
+  height: 82%;
+  overflow-y: scroll;
+  background-position: center;
+  background-color: white;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.block_input_chat {
+  width: 100%;
+  height: 8%;
+  border-radius: 3px;
+  background-color: rgb(221, 220, 224);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.input_chat {
+  border: none;
+  outline: none;
+  background-color: rgb(221, 220, 224);
+  width: 89%;
+  margin: 40px;
+  color: black;
+}
+
+
+.sellect {
+  background-color: rgb(52, 58, 64);
+  border: none;
+}
+.profil_img {
+  margin-left: 15%;
+  margin-top: 15%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdkXH0zXOdvxGNbAD7_EymFNOgsoGu5wCVDw&usqp=CAU');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid rgb(164, 164, 165);
+}
+
+.hr {
+  border: 1px solid black;
+  color: black;
+}
+
+.inpFile {
+  display: none;
+}
+
+.select {
+  background-color: rgb(52, 54, 57);
+  border: none;
+} 
+
+/* more information */
+
+.laptop {
+  width: 700px;
+}
+
+.p {
+  margin-top: 200px;
+}
+
+.phone {
+  width: 400px;
+  position: absolute;
+  left: -65px;
+  z-index: 1;
+}
+
+.phone-bc {
+  width: 165px;
+  height: 360px;
+  position: absolute;
+  left: 50px;
+  z-index: 0;
+}
+
+.Chat {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.Chat-icon {
+  font-size: 100px;
+  position: absolute;
+  left: 350px;
+  top: 380px;
+}
+
+.lapchat {
+  align-items: center;
+}
+
+.block1 {
+  width: 500px;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid black;
+  background-color: rgb(59, 59, 59);
+  opacity: 80%;
+  margin-left: 200px;
+  padding: 20px;
+}
+.form {
+  background-color: rgb(10, 10, 10);
+}
+
+.g {
+  align-items: center;
+  margin: 0;
+}
+
+.inf {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+
+.inf1 {
+  background-color: rgb(168, 168, 164);
+  opacity: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+  padding-bottom: 150px;
+  border-radius: 5px;
+}
+
+.inf1_1 {
+  width: 400px;
+  height: 200px;
+}
+
+.thanks {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(119, 117, 117);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(19, 17, 17);
+  margin-left: 650px;
+  margin-top: 200px;
+}
+
+
+/* participants */
+
+.img1 {
+  width: 500px;
+  height: 250px;
+  position: absolute;
+  left: 700px;
+  top: 250px;
+}
+
+
+.main_letter {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.names {
+  margin-left: 100px;
+  display: flex;
+  justify-items: left;
+  align-items: center;
+  padding: 20px;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
